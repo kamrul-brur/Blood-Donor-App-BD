@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".Division_Rajshahi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/bogura_district_ID"
+                android:text="@string/bogura_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/chapainawabganj_district_ID"
+                android:text="@string/chapainawabganj_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/joypurhat_district_ID"
+                android:text="@string/joypurhat_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/naogaon_district_ID"
+                android:text="@string/naogaon_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/natore_district_ID"
+                android:text="@string/natore_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/pabna_district_ID"
+                android:text="@string/pabna_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/rajshahi_district_ID"
+                android:text="@string/rajshahi_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/sirajgonj_district_ID"
+                android:text="@string/sirajgonj_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

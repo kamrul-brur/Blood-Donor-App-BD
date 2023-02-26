@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:ignore="ContentDescription"
+    tools:context=".FindByBloodGroup">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp">
+
+        <ImageButton
+            android:id="@+id/a_positive_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_a_positive"
+            android:scaleType="fitXY"
+
+            />
+        <ImageButton
+            android:id="@+id/a_negative_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_a_negative"
+            android:scaleType="fitXY"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp">
+        <ImageButton
+            android:id="@+id/b_positive_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_b_positive"
+            android:scaleType="fitXY"
+
+            />
+        <ImageButton
+            android:id="@+id/b_negative_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_b_negative"
+            android:scaleType="fitXY"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp">
+        <ImageButton
+            android:id="@+id/o_positive_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_o_positive"
+            android:scaleType="fitXY"
+
+            />
+        <ImageButton
+            android:id="@+id/o_negative_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_o_negative"
+            android:scaleType="fitXY"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp">
+        <ImageButton
+            android:id="@+id/ab_positive_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_ab_positive"
+            android:scaleType="fitXY"
+
+            />
+        <ImageButton
+            android:id="@+id/ab_negative_ID"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/blood_ab_negative"
+            android:scaleType="fitXY"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

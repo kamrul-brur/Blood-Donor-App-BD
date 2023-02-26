@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blood_donor_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Contact_With_Developer"></activity>
+        <activity android:name=".ShowDataHelperBG" />
+        <activity android:name=".ShowDataHelper" />
+        <activity android:name=".Division_Mymensingh" />
+        <activity android:name=".Division_Rangpur" />
+        <activity android:name=".Division_Sylhet" />
+        <activity android:name=".Division_Barisal" />
+        <activity android:name=".Division_Khulna" />
+        <activity android:name=".Division_Rajshahi" />
+        <activity android:name=".Division_Chittagong" />
+        <activity android:name=".Division_Dhaka" />
+        <activity android:name=".SendUsFeedback" />
+        <activity android:name=".AboutThisApp" />
+        <activity android:name=".TipsForDonor" />
+        <activity android:name=".Be_A_Donor" />
+        <activity android:name=".FindByArea" />
+        <activity android:name=".FindByBloodGroup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

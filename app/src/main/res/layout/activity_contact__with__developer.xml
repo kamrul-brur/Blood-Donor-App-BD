@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/edited_background_2"
+    tools:context=".Contact_With_Developer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developers_details_full"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FEFEFE"
+        />
+    <TextView
+        android:autoLink="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developers_phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFEB3B"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developers_email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFEB3B"
+        android:autoLink="email"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developers_address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFEB3B"
+        />
+
+
+
+</LinearLayout>

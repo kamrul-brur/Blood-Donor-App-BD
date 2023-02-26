@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Division_Rangpur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/rangpur_district_ID"
+                android:text="@string/rangpur_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/dinajpur_district_ID"
+                android:text="@string/dinajpur_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/kurigram_district_ID"
+                android:text="@string/kurigram_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/nilphamari_district_ID"
+                android:text="@string/nilphamari_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/gaibandha_district_ID"
+                android:text="@string/gaibandha_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/thakurgaon_district_ID"
+                android:text="@string/thakurgaon_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/panchagarh_district_ID"
+                android:text="@string/panchagarh_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/lalmonirhat_district_ID"
+                android:text="@string/lalmonirhat_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

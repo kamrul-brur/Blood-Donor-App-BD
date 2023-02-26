@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Division_Barisal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/barisal_district_ID"
+                android:text="@string/barisal_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/barguna_district_ID"
+                android:text="@string/barguna_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/bhola_district_ID"
+                android:text="@string/bhola_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/jhalokati_district_ID"
+                android:text="@string/jhalokati_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/patuakhali_district_ID"
+                android:text="@string/patuakhali_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:drawableStart="@drawable/right_pointer_left"
+                android:drawableEnd="@drawable/right_pointer_right"
+                android:id="@+id/pirojpur_district_ID"
+                android:text="@string/pirojpur_district"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

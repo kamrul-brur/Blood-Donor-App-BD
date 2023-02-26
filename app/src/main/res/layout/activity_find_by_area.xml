@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="8"
+    android:background="@drawable/edited_background_2"
+    tools:context=".FindByArea">
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/dhaka_division_ID"
+        android:layout_weight="1"
+        android:text="@string/dhaka_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/chittagong_division_ID"
+        android:layout_weight="1"
+        android:text="@string/chittagong_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/rajshahi_division_ID"
+        android:layout_weight="1"
+        android:text="@string/rajshahi_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/khulna_division_ID"
+        android:layout_weight="1"
+        android:text="@string/khulna_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/barisal_division_ID"
+        android:layout_weight="1"
+        android:text="@string/barisal_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/sylhet_division_ID"
+        android:layout_weight="1"
+        android:text="@string/sylhet_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/rangpur_division_ID"
+        android:layout_weight="1"
+        android:text="@string/rangpur_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:drawableStart="@drawable/right_pointer_left"
+        android:drawableEnd="@drawable/right_pointer_right"
+        android:id="@+id/mymensingh_division_ID"
+        android:layout_weight="1"
+        android:text="@string/mymensingh_division"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</LinearLayout>

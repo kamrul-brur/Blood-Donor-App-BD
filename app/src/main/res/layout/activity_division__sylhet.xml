@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Division_Sylhet">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UselessParent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:drawableStart="@drawable/right_pointer_left"
+            android:drawableEnd="@drawable/right_pointer_right"
+            android:id="@+id/habiganj_district_ID"
+            android:text="@string/habiganj_district"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:drawableStart="@drawable/right_pointer_left"
+            android:drawableEnd="@drawable/right_pointer_right"
+            android:id="@+id/moulvibazar_district_ID"
+            android:text="@string/moulvibazar_district"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:drawableStart="@drawable/right_pointer_left"
+            android:drawableEnd="@drawable/right_pointer_right"
+            android:id="@+id/sunamganj_district_ID"
+            android:text="@string/sunamganj_district"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:drawableStart="@drawable/right_pointer_left"
+            android:drawableEnd="@drawable/right_pointer_right"
+            android:id="@+id/sylhet_district_ID"
+            android:text="@string/sylhet_district"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

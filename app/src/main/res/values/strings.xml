@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Blood_Donor_App</string>
+    <string name="slogan">Donate your blood for a reason,\nlet the reason to be life.</string>
+    <string name="findbybloodgroup">Find by blood group</string>
+    <string name="enterName">Enter Your Name</string>
+    <string name="enterBloodgroup">Enter Your Blood Group(e.g. A+,B+)</string>
+    <string name="enterPhonNumber">Enter Your Phone Number</string>
+    <string name="enterDistrict">Enter Your District</string>
+    <string name="saveDataButton">Enlist Yourself As a donor</string>
+    <string name="loadDataButton">See donor List</string>
+    <string name="enter_area_for_searching">Enter an Area </string>
+    <string name="search">Search</string>
+
+    <string name="description">There’s no end to the benefits of donating blood for those who need it . It is really a
+    honorable task by which we can help people.Here main fact is that only human beings are the only source of blood.
+    But for donating blood we must follow some prerequisites :\n
+        1. The recommended interval is 3 months between each blood donation.So if you donate
+        blood before then you must wait until three months completed.\n
+        2.Donor must be in good general health. and \n
+        3.Weigh at least 110 pounds. and\n
+        4. Be at least 16 years old \n\n
+    </string>
+
+    <string name="title_1">Benefits of Donating Blood</string>
+    <string name="detail_1">
+         1. Giving blood can reveal potential health problems \n
+         2. Giving blood can reduce harmful iron stores \n
+         3. Giving blood may lower your risk of suffering a heart attack \n
+         4. Giving blood may reduce your risk of developing cancer \n
+         5. Giving blood can help your liver stay healthy \n
+         6. Giving blood can help your mental state \n
+         7. Free blood analysis \n \n
+    </string>
+
+    <string name="title_2">What should you do before Donating Blood</string>
+    <string name="detail_2">
+        1. Drink an extra 16 ounces of water before your appointment.\n
+        2. Eat a healthy meal that’s low in fat. \n
+        3. Wear a short-sleeved shirt or a shirt with sleeves that are easy to roll up. \n\n
+    </string>
+
+    <string name="title_3">What should you do after Donating Blood</string>
+    <string name="detail_3">
+     1. Drink an extra four glasses (eight ounces each) of non-alcoholic liquids.\n
+     2. Keep your bandage on and dry for the next five hours, and do not do heavy exercising or lifting.\n
+     3. If the needle site starts to bleed, raise your arm straight up and press on the site until the bleeding stops.\n
+     4.Eat healthy meals and consider adding iron-rich foods to your regular diet, or discuss taking an
+        iron supplement with your health care provider, to replace the iron lost with blood donation.\n
+     5. And remember to enjoy the feeling of knowing you have helped save lives! \n
+     6. Schedule your next appointment. \n
+
+    </string>
+
+    <string name="about_this_app">
+        An estimate from 2011 is that of the 500,000 units of blood required annually,
+        only 25% come from voluntary donation, 20–25% from paid donors,
+        and 50–55% from one-time donation for a specific patient. So the importance of
+        blood in emergency case can\'t be imagined!!! \n
+        Basically this app will help you finding donors in your area . Just download this app from
+        google play store and open it. In this app you can option\'s such as : \n\n
+        1. This app contain\'s every district\'s donor list on every blood group .\n
+        2 . Find blood donor in your area using location\'s or blood group\'s. \n
+        3 . Enlist yourself as a donor.\n
+        4 . Tip\'s for donor.\n
+        5. Send us your valuable feedback about this app.
+    </string>
+
+
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_feedback">Enter our feedback</string>
+    <string name="send_feedback">Send</string>
+    <string name="clear_feedback">Clear</string>
+
+    <string name="share_this_app">Share this app </string>
+    <string name="developers_detail">Developer\'s Contact</string>
+    <string name="alert_title">Blood Donor\'s App</string>
+    <string name="alert_message">Do you want to exit this app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="neutral">Cancel</string>
+
+
+    <string name="developers_details_full">My name is Kamrul Hasan . Currently I\'m studying in CSE department,
+        Begum Rokeya University,Rangpur . On my
+        java project I decided to develop an app
+        which will collect and contains all donor\'s list among the whole country .
+        Along with two of my project teammates Suman Faruk &amp; Munsur Ali I developed this app .
+        If you experience any trouble using this app then please
+        inform us. </string>
+    <string name="developers_phone">Phone : +8801745637501</string>
+    <string name="developers_email">Email : kamrulhasanrony111@gmail.com</string>
+    <string name="developers_address">Address : ChokBazar, Ashrotpur, Rangpur</string>
+
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="districts">
+
+
+    </string-array>
+
+    <string-array name="gridlist">
+        <item>Find by blood group</item>
+        <item>Find by area</item>
+        <item>Be a donor</item>
+        <item>Tips for donor</item>
+        <item>About this app</item>
+        <item>Send us Feedback</item>
+    </string-array>
+
+    <string name="dhaka_division">Dhaka Division</string>
+    <string name="chittagong_division">Chittagong Division</string>
+    <string name="rajshahi_division">Rajshahi Division</string>
+    <string name="khulna_division">Khulna Division</string>
+    <string name="barisal_division">Barisal Division</string>
+    <string name="sylhet_division">Sylhet Division</string>
+    <string name="rangpur_division">Rangpur Division</string>
+    <string name="mymensingh_division">Mymensingh Division</string>
+
+    <string name="dhaka_district">Dhaka </string>
+    <string name="gazipur_district">Gazipur </string>
+    <string name="kishoreganj_district">Kishoreganj </string>
+    <string name="manikganj_district">Manikganj </string>
+    <string name="munshiganj_district">Munshiganj </string>
+    <string name="narayanganj_district">Narayanganj </string>
+    <string name="narsingdi_district">Narsingdi </string>
+    <string name="tangail_district">Tangail </string>
+    <string name="faridpur_district">Faridpur </string>
+    <string name="gopalganj_district">Gopalganj </string>
+    <string name="madaripur_district">Madaripur </string>
+    <string name="rajbari_district">Rajbari </string>
+    <string name="shariatpur_district">Shariatpur </string>
+
+
+    <string name="brahmanbaria_district">Brahmanbaria </string>
+    <string name="comilla_district">Comilla </string>
+    <string name="chandpur_district">Chandpur </string>
+    <string name="lakshmipur_district">Lakshmipur</string>
+    <string name="noakhali_district">Noakhali </string>
+    <string name="feni_district">Feni </string>
+    <string name="khagrachhari_district">Khagrachhari </string>
+    <string name="rangamati_district">Rangamati </string>
+    <string name="bandarban_district">Bandarban </string>
+    <string name="chittagonj_district">Chittagong </string>
+    <string name="coxsbazar_district">Cox\'s Bazar </string>
+
+
+    <string name="bogura_district">Bogura </string>
+    <string name="chapainawabganj_district">Chapainawabganj </string>
+    <string name="joypurhat_district">Joypurhat </string>
+    <string name="naogaon_district">Naogaon </string>
+    <string name="natore_district">Natore </string>
+    <string name="pabna_district">Pabna </string>
+    <string name="rajshahi_district">Rajshahi </string>
+    <string name="sirajgonj_district">Sirajgonj </string>
+
+
+    <string name="bagerhat_district">Bagerhat </string>
+    <string name="chuadanga_district">Chuadanga </string>
+    <string name="jessore_district">Jessore </string>
+    <string name="jhenaida_district">Jhenaida </string>
+    <string name="khulna_district">Khulna </string>
+    <string name="kushtia_district">Kushtia  </string>
+    <string name="magura_district">Magura </string>
+    <string name="meherpur_district">Meherpur </string>
+    <string name="narail_district">Narail </string>
+    <string name="satkhira_district">Satkhira </string>
+
+    <string name="barisal_district">Barisal </string>
+    <string name="barguna_district">Barguna </string>
+    <string name="bhola_district">Bhola </string>
+    <string name="jhalokati_district">Jhalokati </string>
+    <string name="patuakhali_district">Patuakhali </string>
+    <string name="pirojpur_district">Pirojpur </string>
+
+
+    <string name="habiganj_district">Habiganj </string>
+    <string name="moulvibazar_district">Moulvibazar </string>
+    <string name="sunamganj_district">Sunamganj </string>
+    <string name="sylhet_district">Sylhet </string>
+
+
+    <string name="rangpur_district">Rangpur </string>
+    <string name="dinajpur_district">Dinajpur </string>
+    <string name="kurigram_district">Kurigram </string>
+    <string name="nilphamari_district">Nilphamari </string>
+    <string name="gaibandha_district">Gaibandha </string>
+    <string name="thakurgaon_district">Thakurgaon </string>
+    <string name="panchagarh_district">Panchagarh </string>
+    <string name="lalmonirhat_district">Lalmonirhat </string>
+
+
+    <string name="mymensingh_district">Mymensingh </string>
+    <string name="netrokona_district">Netrokona </string>
+    <string name="jamalpur_district">Jamalpur </string>
+    <string name="sherpur_district">Sherpur </string>
+
+
+</resources>
